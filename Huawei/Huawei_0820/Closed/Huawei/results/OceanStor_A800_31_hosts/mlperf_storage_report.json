@@ -1,0 +1,61 @@
+{
+    "overall": {
+        "model": "unet3d",
+        "accelerator": "h100",
+        "num_benchmark_runs": 5,
+        "train_num_accelerators": "155",
+        "num_files_train": 840000,
+        "num_samples_per_file": 1,
+        "train_throughput_mean_samples_per_second": 3183.3816089679226,
+        "train_throughput_stdev_samples_per_second": 28.95437982968375,
+        "train_throughput_mean_MB_per_second": 445066.2069686392,
+        "train_throughput_stdev_MB_per_second": 4048.090235120946
+    },
+    "runs": {
+        "run1": {
+            "train_throughput_samples_per_second": 3198.975238046053,
+            "train_throughput_MB_per_second": 447246.3406124124,
+            "train_num_accelerators": "155",
+            "model": "unet3d",
+            "accelerator": "h100",
+            "num_files_train": 840000,
+            "num_samples_per_file": 1
+        },
+        "run2": {
+            "train_throughput_samples_per_second": 3196.040351299801,
+            "train_throughput_MB_per_second": 446836.0162867464,
+            "train_num_accelerators": "155",
+            "model": "unet3d",
+            "accelerator": "h100",
+            "num_files_train": 840000,
+            "num_samples_per_file": 1
+        },
+        "run3": {
+            "train_throughput_samples_per_second": 3199.243953651582,
+            "train_throughput_MB_per_second": 447283.9095406769,
+            "train_num_accelerators": "155",
+            "model": "unet3d",
+            "accelerator": "h100",
+            "num_files_train": 840000,
+            "num_samples_per_file": 1
+        },
+        "run4": {
+            "train_throughput_samples_per_second": 3197.1272358838046,
+            "train_throughput_MB_per_second": 446987.97280928603,
+            "train_num_accelerators": "155",
+            "model": "unet3d",
+            "accelerator": "h100",
+            "num_files_train": 840000,
+            "num_samples_per_file": 1
+        },
+        "run5": {
+            "train_throughput_samples_per_second": 3125.5212659583713,
+            "train_throughput_MB_per_second": 436976.7955940745,
+            "train_num_accelerators": "155",
+            "model": "unet3d",
+            "accelerator": "h100",
+            "num_files_train": 840000,
+            "num_samples_per_file": 1
+        }
+    }
+}
